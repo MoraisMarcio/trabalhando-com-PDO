@@ -37,6 +37,7 @@ class Update extends Conn {
 
 	public function setPlaces($ParseString){
 		parse_str($ParseString, $this->Places);
+		$this->getSyntax();
 		$this->Execute();
 	}
 

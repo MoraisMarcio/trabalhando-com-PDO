@@ -23,6 +23,8 @@ if ($update->getRowCount()>0) {
 	echo "Não foi possível atualizar os dados informados!<hr>";
 }
 
+$update->setPlaces('email=a@a');
+
  ?>
 </body>
 </html>
