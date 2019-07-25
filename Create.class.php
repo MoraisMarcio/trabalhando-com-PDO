@@ -62,7 +62,7 @@ class Create extends Conn {
 		} catch (PDOException $e) {
 			$this->Result = null;
 				//WSErro("<b>Erro ao cadastrar:</b> {$e->getMessage()}", e->getCode());
-			echo "ERRO!";
+			echo "ERRO AO CADASTRAR!";
 		}
 	}
 
