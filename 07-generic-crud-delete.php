@@ -7,8 +7,7 @@
 <body>
 <?php 
 
-require('Conn.class.php');
-require('Delete.class.php');
+require('./inc/Config.inc.php');
 
 $delete = new Delete;
 $delete->ExeDelete('logins', 'WHERE email = :email', 'email=c@c');

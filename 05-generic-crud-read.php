@@ -7,8 +7,7 @@
 <body>
 <?php 
 
-require('Conn.class.php');
-require('Read.class.php');
+require('./inc/Config.inc.php');
 
 $read = new Read;
 $read->ExeRead('logins', 'WHERE arquiteto = :arquiteto LIMIT :limit' , "arquiteto=1&limit=3");

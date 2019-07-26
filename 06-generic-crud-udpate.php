@@ -7,8 +7,7 @@
 <body>
 <?php 
 
-require('Conn.class.php');
-require('Update.class.php');
+require('./inc/Config.inc.php');
 
 $Dados = [
 'senha' => 'a', 'arquiteto' => '1', 'lojista' => '0', 'cod_ativacao' => '0', 'status' => '0'
